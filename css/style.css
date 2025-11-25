@@ -519,6 +519,12 @@ b, strong {
 .skills .technology:hover .nunit {
   color: #059800;
 }
+.skills .technology:hover .xunit {
+  color: #07d700;
+}
+.skills .technology:hover .rabbitmq {
+  color: #fc7209;
+}
 .skills .shadow {
   width: 100%;
   height: 100%;
