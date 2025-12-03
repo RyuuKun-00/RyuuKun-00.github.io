@@ -77,6 +77,7 @@ b, strong {
 }
 
 .animated-info {
+  width: 100%;
   display: inline-block;
   vertical-align: top;
   margin-top: 10px;
@@ -89,7 +90,6 @@ b, strong {
 }
 
 .animated-item {
-  font-size: 35px;
   line-height: inherit;
   display: block;
   opacity: 0;
@@ -684,9 +684,6 @@ b, strong {
   h2 {
     font-size: 2em;
   }
-  .animated-item {
-    font-size: 28px;
-  }
   .navbar-collapse {
     color: #ffffff;
     text-align: center;
@@ -711,6 +708,9 @@ b, strong {
   }
 }
 @media (max-width: 420px) {
+  .animated-item {
+    font-size: 0.8em;
+  }
   .mobile-block {
     display: block;
     padding: 0 16px;
