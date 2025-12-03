@@ -111,10 +111,10 @@ b, strong {
 }
 
 .animated-info {
+	width: 100%;
     display: inline-block;
     vertical-align: top;
     margin-top: 10px;
-    width: 300px;
     position: relative;
 }
 
@@ -123,7 +123,6 @@ b, strong {
 }
 
 .animated-item {
-    font-size: 35px;
     line-height: inherit;
     display: block;
     opacity: 0;
@@ -816,9 +815,6 @@ font-weight: bold;
 		font-size: 2em;
 	}
 
-	.animated-item {
-		font-size: 28px;
-	}
 
 	.navbar-collapse {
 		color: $text-white;
@@ -833,9 +829,6 @@ font-weight: bold;
 
 @media (max-width: 580px) {
 
-	.animated-item {
-		font-size: 24px;
-	}
 
 	.timeline-info small {
 		display: block;
@@ -851,12 +844,16 @@ font-weight: bold;
 		font-size: 1.8em;
 	}
 
-		html{
+	html{
 		font-size: 14px;
 	}
 }
 
 @media (max-width: 420px) {
+
+	.animated-item{
+		font-size: 0.8em;
+	}
 	.mobile-block {
 		display: block;
 		padding: 0 16px;
