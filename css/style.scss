@@ -592,6 +592,9 @@ font-weight: bold;
 			.react{
 				color: #06c300;
 			}
+			.gsup{
+				color: #035600;
+			}
 			.bootstrap{
 				color: #750077;
 			}
@@ -640,6 +643,9 @@ font-weight: bold;
 		fill: $dark-mode-color;
 		transition: .5s;
 		padding: 0.5rem;
+		&:hover{
+			padding: 0.7rem;
+		}
 		span{
 			transition: .5s;
 		}

@@ -492,6 +492,9 @@ b, strong {
 .skills .technology:hover .react {
   color: #06c300;
 }
+.skills .technology:hover .gsup {
+  color: #035600;
+}
 .skills .technology:hover .bootstrap {
   color: #750077;
 }
@@ -537,6 +540,9 @@ b, strong {
   fill: #0c0c0d;
   transition: 0.5s;
   padding: 0.5rem;
+}
+.skills .shadow:hover {
+  padding: 0.7rem;
 }
 .skills .shadow span {
   transition: 0.5s;
