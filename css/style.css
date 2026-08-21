@@ -299,17 +299,17 @@ b, strong {
 .dark-mode .git-link a .octocat-arm {
   fill: #0c0c0d;
 }
-.dark-mode .social-link a {
+.dark-mode .social-link .link {
   box-shadow: 0 10px 15px rgba(255, 255, 255, 0.3);
   background: linear-gradient(0deg, #000000, #111111);
 }
-.dark-mode .social-link a:hover {
+.dark-mode .social-link .link:hover {
   box-shadow: 0 2px 5px rgba(255, 255, 255, 0.3);
 }
-.dark-mode .social-link a:hover span {
+.dark-mode .social-link .link:hover span {
   color: #ffc200;
 }
-.dark-mode .social-link a .cos-link {
+.dark-mode .social-link .link .soc-link {
   background: linear-gradient(0deg, #111111, #000000);
   fill: rgba(255, 255, 255, 0.8);
   color: rgba(255, 255, 255, 0.8);
