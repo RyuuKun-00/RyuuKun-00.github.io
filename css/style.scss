@@ -28,9 +28,18 @@ $link-font-size: 16px;
 	transition: all 0.4s ease;
 }
 
+html{
+	width: 100%;
+}
 body {
 	font-family: $font-base;
 	padding-top: 70px;
+}
+
+iframe{
+	border: none;
+	max-width: 650px;
+	width: 100%;
 }
 
 .full-screen {
@@ -42,7 +51,6 @@ body {
     font-size: $small-font-size;
     font-weight: $font-weight-bold;
     padding: 8px 16px;
-    border-radius: 50px;
     letter-spacing: 0.2px;
 }
 
@@ -104,6 +112,7 @@ h3,
 b, strong {
 	font-weight: $font-weight-bold;
 }
+
 
 // ANIMATED TEXT
 .animated {
@@ -740,11 +749,14 @@ font-weight: bold;
 	flex-wrap: wrap;
 	white-space: nowrap;
 	a{
-		position: relative;
+		
 		height:4rem;
+	}
+	.link{
+		position: relative;
+		border-radius: 2rem;
 		display:block;
 		margin:0 10px;
-		border-radius: 2rem;
 		padding: .5rem;
 		box-sizing: border-box;
 		text-decoration:none;
@@ -763,13 +775,9 @@ font-weight: bold;
 			.mail-link{
 				fill: #d000ff;
 			}
-
-			.phone-link{
-				fill: #00ff04;
-			}
 		}
 
-		.cos-link{
+		.soc-link{
 			width: 100%;
 			height:100%;
 			display: inline-flex;
@@ -782,6 +790,11 @@ font-weight: bold;
 			transition: .5s;
 			padding-left: .3rem;
 			padding-right: .3rem;
+		}
+
+		.form{
+			max-width: 650px;
+			width: 100%;
 		}
 
 		svg{
@@ -871,5 +884,14 @@ font-weight: bold;
 
 	.download{
 		display: none;
+	}
+
+	.social-link{
+		.link{
+			margin: 0px;
+			.soc-link{
+				font-size: 1rem;
+			}
+		}
 	}
 }
